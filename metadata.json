@@ -1,0 +1,7 @@
+{
+  "name": "Anzaar Green Invoice Generator",
+  "description": "An easy-to-use, mobile-first invoice generator designed specifically for Bangladeshi small businesses..",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
