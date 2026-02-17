@@ -1,5 +1,6 @@
 
 import React, { useState, useEffect, useRef } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { BusinessSettings, InvoiceData, Product } from './types';
 import { INITIAL_SETTINGS, INITIAL_PRODUCTS } from './constants';
 import InvoiceForm from './components/InvoiceForm';
@@ -172,6 +173,7 @@ const App: React.FC = () => {
           <AdminPanel settings={settings} setSettings={handleSettingsUpdate} products={products} setProducts={handleProductsUpdate} />
         )}
       </main>
+      <SpeedInsights />
     </div>
   );
 };
